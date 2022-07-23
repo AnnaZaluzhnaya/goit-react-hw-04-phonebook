@@ -1,0 +1,20 @@
+.item {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.removeBtn {
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 2px solid blueviolet;
+  background-color: #e19adc;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.removeBtn:hover {
+  background-color: blueviolet;
+  transform: scale(0.9);
+  box-shadow: 0 14px 28px #d9cfe7, 0 10px 10px blueviolet;
+  transition: 1s;
+}
